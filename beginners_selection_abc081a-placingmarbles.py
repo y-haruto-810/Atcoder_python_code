@@ -1,3 +1,4 @@
+# before
 bidama = 0
 num = input()
 number = str(num)
@@ -7,3 +8,11 @@ for j in int_s_list :
     if j == 1 :
         bidama += 1
 print(bidama)
+
+#after
+s = input()
+num = 0
+for i in s :
+    if i == "1" :
+        num += 1
+print(num)

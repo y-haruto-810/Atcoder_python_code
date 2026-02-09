@@ -1,4 +1,17 @@
 a = int(input())
+b = int(input())
+c = int(input())
+x = int(input())
+num = 0
+for i in range(0,a+1) :
+    for j in range(0,b+1) :
+        if 0 <= (x - (500*i + 100*j)) // 50 <= c :
+            num += 1
+print(num)
+#↑最新コード
+
+#最初のコード
+a = int(input())
 a_list = [a_d for a_d in range(0,a+1)]
 b = int(input())
 b_list = [b_e for b_e in range(0,b+1)]
