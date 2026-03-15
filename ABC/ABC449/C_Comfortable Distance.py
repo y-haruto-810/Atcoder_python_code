@@ -1,3 +1,4 @@
+# TLEのコードその１
 n,l,r = map(int,input().split())
 s = input()
 count = 0
@@ -6,7 +7,7 @@ for i in range(n) :
         if s[i] == s[j] :
             count += 1
 print(count)
-
+# TLEのコードその２
 n,l,r = map(int,input().split())
 s = input()
 kazu = 0
