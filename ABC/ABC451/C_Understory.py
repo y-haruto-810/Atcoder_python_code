@@ -19,7 +19,7 @@ for i in range(q) :
         newtree = []
         tree_len = len(tree)
         print(tree_len)
-
+        
 # setでうまくやろうとしたもののWAになったコード
 import sys
 input = sys.stdin.readline
